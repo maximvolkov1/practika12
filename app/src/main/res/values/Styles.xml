@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.Theme.NMedia.LikeButton" parent="Widget.MaterialComponents.Button.TextButton.Icon">
+        <item name="iconTint">@color/like_checkbox_tint</item>
+        <item name="android:minWidth">48dp</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+    <style name="Widget.Theme.NMedia.LikeCheckBox"
+        parent = "Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="buttonTint">@color/like_checkbox_tint</item>
+        <item name="android:paddingStart">12dp</item>
+    </style>
+    <style name="Widget.Theme.NMedia.IconButton" parent="Widget.MaterialComponents.Button.TextButton.Icon">
+        <item name="iconTint">@color/icon_button_tint</item>
+        <item name="iconPadding">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+        <item name="android:minWidth">48dp</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+    <style name="Widget.Theme.NMedia.ShareButton" parent="Widget.MaterialComponents.Button.TextButton.Icon">
+        <item name="iconTint">@color/share_button_tint</item>
+        <item name="minWidth">48dp</item>
+        <item name="minHeight">48dp</item>
+    </style>
+</resources>
